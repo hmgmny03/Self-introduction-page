@@ -1,0 +1,32 @@
+*{
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{ background-color: #DDE6ED }
+h1{ color:#27374D }
+
+h1{ display: inline-block}
+nav { display: inline-block }
+
+ul { background: #DDE6ED; padding: 10px }
+li { display: inline; }
+a { color: #27374D; text-decoration: none; padding: 20px 30px}
+a:hover { background:#526D82; font-weight: bold; color: white }
+
+.container { max-width: 1000px; margin: 0 auto; padding: 20; }
+
+table {  width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 10px; text-align: center; border: 1px solid #ddd; }
+th { background-color: #1679AB; color: #333; font-weight: bold; }
+.time-column { min-width: 80px; background-color: #5DEBD7; font-weight: bold; color: #333; }
+.subject-cell { background-color: #C5FF95; }
+td:empty { background-color: #ffffff; }
+
+td:hover { background-color: #333; color: #fff; }
+
+@media only screen and (max-width: 600px) {
+    table { font-size: 12px;}
+    th, td {padding: 8px; }}
+    
