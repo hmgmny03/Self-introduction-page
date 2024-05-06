@@ -1,0 +1,45 @@
+
+*{
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body{ background-color: #DDE6ED }
+  h1{ color:#27374D }
+  
+  h1{ display: inline-block}
+  nav { display: inline-block }
+  
+  ul { background: #DDE6ED; padding: 10px }
+  li { display: inline; }
+  a { color: #27374D; text-decoration: none; padding: 20px 30px}
+  a:hover { background:#526D82; font-weight: bold; color: white }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .audio-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .audio {
+    margin-right: 20px;
+  }
+  
+  .audio img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .audio p {
+    text-align: center;
+  }
